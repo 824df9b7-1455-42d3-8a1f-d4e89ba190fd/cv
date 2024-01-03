@@ -210,6 +210,17 @@ if (typeof exports==='object') {
   body { line-height:1.5; margin:auto; padding:3px; max-width:1024px; display:none; FONT-FAMILY:CALIBRI,ARIAL; }
   h1  { font-size:200%; padding:16px; border:1px solid lightgrey; BACKGROUND:#A05; COLOR:WHITE }
   h2  { border-bottom:1px solid grey; padding:2px; COLOR:PURPLE }
+  .markdown code { background:#f0f0f0; color:navy; border-radius:6px; padding:2px; } 
+.markdown pre  { background:#f0f0f0; margin:12px; border:1px solid #ddd; padding:20px 12px; border-radius:6px; } 
+.markdown pre:hover button { display:block; }
+.markdown pre button { display:none; position:relative; float:right; top:-16px }
+.markdown blockquote { background:#f0f0f0; border-left:6px solid grey; padding:8px }
+.markdown table { margin:12px; border-collapse: collapse; }
+.markdown th    { border:1px solid grey; background:lightgrey; padding:6px; } 
+.markdown td    { border:1px solid grey;  padding:6px; }
+.markdown tr:nth-child(even) {  background:#f0f0f0;  }
+.markdown ins { color:#890604 } 
+.markdown rem { color:#198964 }
 </style>
 <body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block';">
 <!--======= COPY ABOVE CODE AS HEADER, THEN FOLLOW WITH RESUME CONTENT IN MARKDOWN FORMAT =========-->
